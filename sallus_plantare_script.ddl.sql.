@@ -181,16 +181,16 @@ VALUES ('Carlos Henrique Ferreira', '83654256803', 'Médico(a)', 'Cirurgião Buc
 
   
 INSERT INTO Registro_profissional (tipo_do_registro, numero_do_registro, uf_registro)
-VALUE ( 'COREN', '125495','RN' ),
-VALUE ('CRM', '564982', 'MG' ),
-VALUE ('CRM', '268942', 'PB'),
-VALUE ('CRM', '231698', 'RN');
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
 
 INSERT INTO Endereco_do_profissional (logradouro, numero_endereco, bairro, cidade, uf_endereco, cep)
-VALUE ('Rua ', ' 'RN', '59194000'),
-VALUE ('Rua Coronel Cascudo', '564', 'Tirol', 'RN', '59673000'),
-VALUE ('Avenida João Roberto Freire', '78', 'pão de ló', 'RN', '59423000'),
-VALUE ('Rua Navegantes De Oliveira', '908', 'centro' 'RN', '59459000');
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
 
 INSERT INTO  ProfissionalEmail (email)
 VALUE (),
@@ -199,16 +199,16 @@ VALUE (),
 VALUE ();
 
 INSERT INTO  Instituicao_medica (nome_fantasia, razao_social, CNPJ, tipo_estabelecimento, logradouro, numero, bairro, cidade, uf, cep)
-VALUE (),
-VALUE (),
-VALUE (),
-VALUE ();
+VALUE (´Instituição Doutor Araujo, Hospital Doutor Araujo LTDA`, `12345671489000357´, 'Hospital', 'Rua do Centro', '1800', 'Centro', 'Natal', 'RN', '59000-000'),
+VALUE (´Instituição Doutor Araujo, Hospital Doutor Araujo LTDA`, `12345671489000357´, 'Hospital', 'Rua do Centro', '1800', 'Centro', 'Natal', 'RN', '59000-000'),
+VALUE ('UPA Central', 'Unidade de Pronto Atendimento Central', '23425201234660004', 'UPA', 'Avenida Brasil',  '899' 'Centro', 'Natal', 'RN', '59000-000'),
+VALUE ('UBS Vida Nova', 'Unidade Basica de Saude Vida Nova', '6859423000234000', 'UBS', 'Rua Sao Jose', '128', 'Centro', 'Natal', 'RN', '59000-000' );
 
 
 
 INSERT INTO Plantao (data_plantao, turno, setor, status_plantao)
-VALUE ('25/11/2026', 'Plantão 24h', 'Enfermaria', 'Realizado' ),
-VALUE ('26/11/2026','Plantão 24h', 'Emergência/Pronto Socorro', 'Confirmado'  ),
-VALUE ('27/11/2026', 'Plantão 24h','Emergência/Pronto Socorro', 'Agendado'  ),
-VALUE ('28/11/2026', 'Plantão 24h',  'Centro Cirúrgico', 'Agendado');
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
 
