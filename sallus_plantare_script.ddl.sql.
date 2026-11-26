@@ -187,7 +187,7 @@ VALUE ('CRM', '268942', 'PB'),
 VALUE ('CRM', '231698', 'RN');
 
 INSERT INTO Endereco_do_profissional (logradouro, numero_endereco, bairro, cidade, uf_endereco, cep)
-VALUE ('Rua ', ' 'RN', '59194000'),
+VALUE ('Rua Câmara Cascudo', ' 'RN', '59194000'),
 VALUE ('Rua Coronel Cascudo', '564', 'Tirol', 'RN', '59673000'),
 VALUE ('Avenida João Roberto Freire', '78', 'pão de ló', 'RN', '59423000'),
 VALUE ('Rua Navegantes De Oliveira', '908', 'centro' 'RN', '59459000');
