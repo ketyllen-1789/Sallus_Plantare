@@ -181,16 +181,16 @@ VALUES ('Carlos Henrique Ferreira', '83654256803', 'Médico(a)', 'Cirurgião Buc
 
   
 INSERT INTO Registro_profissional (tipo_do_registro, numero_do_registro, uf_registro)
-VALUE (),
-VALUE (),
-VALUE (),
-VALUE ();
+VALUE ( 'COREN', '125495','RN' ),
+VALUE ('CRM', '564982', 'MG' ),
+VALUE ('CRM', '268942', 'PB'),
+VALUE ('CRM', '231698', 'RN');
 
 INSERT INTO Endereco_do_profissional (logradouro, numero_endereco, bairro, cidade, uf_endereco, cep)
-VALUE (),
-VALUE (),
-VALUE (),
-VALUE ();
+VALUE ('Rua ', ' 'RN', '59194000'),
+VALUE ('Rua Coronel Cascudo', '564', 'Tirol', 'RN', '59673000'),
+VALUE ('Avenida João Roberto Freire', '78', 'pão de ló', 'RN', '59423000'),
+VALUE ('Rua Navegantes De Oliveira', '908', 'centro' 'RN', '59459000');
 
 INSERT INTO  ProfissionalEmail (email)
 VALUE (),
@@ -207,8 +207,8 @@ VALUE ();
 
 
 INSERT INTO Plantao (data_plantao, turno, setor, status_plantao)
-VALUE (),
-VALUE (),
-VALUE (),
-VALUE ();
+VALUE ('25/11/2026', 'Plantão 24h', 'Enfermaria', 'Realizado' ),
+VALUE ('26/11/2026','Plantão 24h', 'Emergência/Pronto Socorro', 'Confirmado'  ),
+VALUE ('27/11/2026', 'Plantão 24h','Emergência/Pronto Socorro', 'Agendado'  ),
+VALUE ('28/11/2026', 'Plantão 24h',  'Centro Cirúrgico', 'Agendado');
 
