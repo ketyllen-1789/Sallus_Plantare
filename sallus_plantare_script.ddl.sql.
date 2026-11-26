@@ -17,7 +17,7 @@ USE Sallus_plantare;
 CREATE TABLE Identificacao_civil (
 idIdentificacao_civil INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
 
-  nome completo VARCHAR (125) NOT NULL,
+  nome_completo VARCHAR (125) NOT NULL,
   RG_num VARCHAR(15) UNIQUE NOT NULL,
   CPF VARCHAR (11) UNIQUE NOT NULL, 
   sexo ENUM ('FEMININO', 'MASCULINO') NOT NULL,
@@ -166,29 +166,49 @@ ON DELETE RESTRICT
 ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
-INSERT INTO Identificacao_civil ()
-INSERT INTO Identificacao_civil ()
-INSERT INTO Identificacao_civil ()
-INSERT INTO Identificacao_civil ()
-  
-INSERT INTO Profissional_de_saude ()
-INSERT INTO Profissional_de_saude ()
-INSERT INTO Profissional_de_saude ()
-INSERT INTO Profissional_de_saude ()
-  
-INSERT INTO Registro_profissional ()
-INSERT INTO Registro_profissional ()
-INSERT INTO Registro_profissional ()
-INSERT INTO Registro_profissional ()
+INSERT INTO Identificacao_civil (nome_completo, RG_num, CPF, sexo, data_de_nascimento, estado_civil )
+VALUES ('Ana Ferreira', '89259246', '89756425803', 08/06/1999','Casado(a) ),
+VALUES ('Klebber Nascimento', '52648146', '89364974743', 03/03/2000','Solteiro(a) ),
+VALUES ('Antônio Fgundes', '86769296', '63418977803', 07/09/2005','Solteiro(a) ),
+VALUES ('Carlos Henrique Ferreira', '89284798', '83654256803', 27/08/2005','Solteiro(a) );
 
 
-INSERT INTO
-INSERT INTO
-INSERT INTO
-INSERT INTO
-INSERT INTO
-INSERT INTO
-INSERT INTO
-INSERT INTO
-INSERT INTO
-INSERT INTO
+INSERT INTO Profissional_de_saude (nome, CPF, cargo, especialidade),
+VALUES ('Ana Ferreira', '89756425803', Enfermeiro(a), ),
+VALUES ('Klebber Nascimento, '89364974743', 'Médico(a)', 'Cardiologista'  ),
+VALUES ('Antônio Fgundes,  '63418977803',  'Médico(a)', 'Clínico Geral'  ),
+VALUES ('Carlos Henrique Ferreira', '83654256803', 'Médico(a)', 'Cirurgião Bucomaxilofacial' );
+
+  
+INSERT INTO Registro_profissional (tipo_do_registro, numero_do_registro, uf_registro)
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
+
+INSERT INTO Endereco_do_profissional (logradouro, numero_endereco, bairro, cidade, uf_endereco, cep)
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
+
+INSERT INTO  ProfissionalEmail (email)
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
+
+INSERT INTO  Instituicao_medica (nome_fantasia, razao_social, CNPJ, tipo_estabelecimento, logradouro, numero, bairro, cidade, uf, cep)
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
+
+
+
+INSERT INTO Plantao (data_plantao, turno, setor, status_plantao)
+VALUE (),
+VALUE (),
+VALUE (),
+VALUE ();
+
