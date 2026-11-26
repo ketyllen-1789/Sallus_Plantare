@@ -167,10 +167,10 @@ ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
 INSERT INTO Identificacao_civil (nome_completo, RG_num, CPF, sexo, data_de_nascimento, estado_civil )
-VALUES ('Ana Ferreira', '89259246', '89756425803', 08/06/1999', 'Casado(a)' ),
-VALUES ('Klebber Nascimento', '52648146', '89364974743', 03/03/2000','Solteiro(a)' ),
-VALUES ('Antônio Fgundes', '86769296', '63418977803', 07/09/2005','Solteiro(a)' ),
-VALUES ('Carlos Henrique Ferreira', '89284798', '83654256803', 27/08/2005','Solteiro(a)' 
+VALUES ('Ana Ferreira', '89259246', '89756425803', 'FEMININO',  08/06/1999', 'Casado(a)' ),
+VALUES ('Klebber Nascimento', '52648146', '89364974743','MASCULINO',  03/03/2000','Solteiro(a)' ),
+VALUES ('Antônio Fgundes', '86769296', '63418977803', 'MASCULINO',  07/09/2005','Solteiro(a)' ),
+VALUES ('Carlos Henrique Ferreira', '89284798', '83654256803', 'MASCULINO', 27/08/2005','Solteiro(a)' 
 );
 
 
@@ -188,10 +188,10 @@ VALUE ('CRM', '268942', 'PB'),
 VALUE ('CRM', '231698', 'RN');
 
 INSERT INTO Endereco_do_profissional (logradouro, numero_endereco, bairro, cidade, uf_endereco, cep)
-VALUE ( 'Rua Câmara Cascudo', '556', 'RN', '59194000'),
-VALUE ('Rua Coronel Cascudo', '564', 'Tirol', 'RN', '59673000'),
-VALUE ('Avenida João Roberto Freire', '78', 'pão de ló', 'RN', '59423000'),
-VALUE ('Rua Navegantes De Oliveira', '908', 'centro' 'RN', '59459000');
+VALUE ( 'Rua Câmara Cascudo', '556', 'Tirol', 'Natal',  'RN', '59194000'),
+VALUE ('Rua Coronel Cascudo', '564', 'Tirol', 'Natal', 'RN', '59673000'),
+VALUE ('Avenida João Roberto Freire', '78', 'Natal', 'pão de ló', 'RN', '59423000'),
+VALUE ('Rua Navegantes De Oliveira', '908', 'Natal',  'centro' 'RN', '59459000');
 
 INSERT INTO  ProfissionalEmail (email)
 VALUE ('anaferrerira56@gmail.com'),
